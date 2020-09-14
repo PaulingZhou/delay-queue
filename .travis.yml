@@ -1,0 +1,12 @@
+language: java
+
+jdk:
+  - openjdk8
+
+notifications:
+  email: false
+
+sudo: false
+
+before_install:
+  - export TZ='Asia/Shanghai'
